@@ -7,8 +7,8 @@ Servo myServo;
 Stepper myStepper(STEPS, 2, 4, 3, 5);
 
 #define PIN_R 11
-#define PIN_G 9
-#define PIN_B 10
+#define PIN_G 10
+#define PIN_B 9
 
 void setColor(int r, int g, int b) {
   analogWrite(PIN_R, 255 - r);
